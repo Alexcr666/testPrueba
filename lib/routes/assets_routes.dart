@@ -1,3 +1,3 @@
 class AssetsRoutes {
-  static final String loginIcon = 'assets/images/icontrii.png';
+  static final String loginIcon = 'assets/images/iconpruebaTest.png';
 }

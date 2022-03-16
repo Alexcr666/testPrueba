@@ -1,9 +1,9 @@
 
-import 'package:trii/data/models/UserModel2.dart';
-import 'package:trii/styles/colors.dart';
-import 'package:trii/styles/style.dart';
-import 'package:trii/ui/profile/profileScreen.dart';
-import 'package:trii/widget/widget.dart';
+import 'package:pruebaTest/data/models/UserModel2.dart';
+import 'package:pruebaTest/styles/colors.dart';
+import 'package:pruebaTest/styles/style.dart';
+import 'package:pruebaTest/ui/profile/profileScreen.dart';
+import 'package:pruebaTest/widget/widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

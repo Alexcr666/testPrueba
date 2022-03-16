@@ -1,13 +1,13 @@
 import 'dart:math';
 
-import 'package:trii/generated/l10n.dart';
+import 'package:pruebaTest/generated/l10n.dart';
 
 
-import 'package:trii/routes/assets_routes.dart';
-import 'package:trii/styles/colors.dart';
-import 'package:trii/utils/adapt_screen.dart';
-import 'package:trii/utils/alert.dart';
-import 'package:trii/utils/utils.dart';
+import 'package:pruebaTest/routes/assets_routes.dart';
+import 'package:pruebaTest/styles/colors.dart';
+import 'package:pruebaTest/utils/adapt_screen.dart';
+import 'package:pruebaTest/utils/alert.dart';
+import 'package:pruebaTest/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_redux/flutter_redux.dart';

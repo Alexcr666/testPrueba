@@ -35,7 +35,7 @@
                 "client_id": "889714115966-3cutqqfl7aaucbq3s136j7es041g7qdq.apps.googleusercontent.com",
                 "client_type": 2,
                 "ios_info": {
-                  "bundle_id": "com.example.trii"
+                  "bundle_id": "com.example.pruebaTest"
                 }
               }
             ]
@@ -46,7 +46,7 @@
         "client_info": {
           "mobilesdk_app_id": "1:889714115966:android:ec0459e6bf95994e091f2f",
           "android_client_info": {
-            "package_name": "com.example.trii"
+            "package_name": "com.example.pruebaTest"
           }
         },
         "oauth_client": [
@@ -71,7 +71,7 @@
                 "client_id": "889714115966-3cutqqfl7aaucbq3s136j7es041g7qdq.apps.googleusercontent.com",
                 "client_type": 2,
                 "ios_info": {
-                  "bundle_id": "com.example.trii"
+                  "bundle_id": "com.example.pruebaTest"
                 }
               }
             ]
@@ -107,7 +107,7 @@
                 "client_id": "889714115966-3cutqqfl7aaucbq3s136j7es041g7qdq.apps.googleusercontent.com",
                 "client_type": 2,
                 "ios_info": {
-                  "bundle_id": "com.example.trii"
+                  "bundle_id": "com.example.pruebaTest"
                 }
               }
             ]

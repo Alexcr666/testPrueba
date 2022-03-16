@@ -1,23 +1,23 @@
 import 'dart:async';
 
 
-import 'package:trii/data/models/UserModel2.dart';
-import 'package:trii/data/networking/api.dart';
-import 'package:trii/generated/l10n.dart';
+import 'package:pruebaTest/data/models/UserModel2.dart';
+import 'package:pruebaTest/data/networking/api.dart';
+import 'package:pruebaTest/generated/l10n.dart';
 
 
-import 'package:trii/app/app_constants.dart';
-import 'package:trii/redux2/app/app_state.dart';
-import 'package:trii/redux2/settingApp/settingsHomeActions.dart';
-import 'package:trii/redux2/settingApp/store.dart';
-import 'package:trii/redux2/store.dart';
+import 'package:pruebaTest/app/app_constants.dart';
+import 'package:pruebaTest/redux2/app/app_state.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeActions.dart';
+import 'package:pruebaTest/redux2/settingApp/store.dart';
+import 'package:pruebaTest/redux2/store.dart';
 
-import 'package:trii/styles/colors.dart';
-import 'package:trii/styles/style.dart';
+import 'package:pruebaTest/styles/colors.dart';
+import 'package:pruebaTest/styles/style.dart';
 
-import 'package:trii/utils/adapt_screen.dart';
-import 'package:trii/widget/card/cardInicio.dart';
-import 'package:trii/widget/widget.dart';
+import 'package:pruebaTest/utils/adapt_screen.dart';
+import 'package:pruebaTest/widget/card/cardInicio.dart';
+import 'package:pruebaTest/widget/widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';

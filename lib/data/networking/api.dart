@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:trii/app/app_constants.dart';
+import 'package:pruebaTest/app/app_constants.dart';
 
 import 'package:http/http.dart' as http;
 

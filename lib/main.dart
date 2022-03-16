@@ -1,10 +1,10 @@
-import 'package:trii/app/app_settings.dart';
-import 'package:trii/generated/l10n.dart';
-import 'package:trii/redux2/settingApp/store.dart';
+import 'package:pruebaTest/app/app_settings.dart';
+import 'package:pruebaTest/generated/l10n.dart';
+import 'package:pruebaTest/redux2/settingApp/store.dart';
 
-import 'package:trii/routes/main_routes.dart';
-import 'package:trii/styles/colors.dart';
-import 'package:trii/utils/adapt_screen.dart';
+import 'package:pruebaTest/routes/main_routes.dart';
+import 'package:pruebaTest/styles/colors.dart';
+import 'package:pruebaTest/utils/adapt_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app_lock/flutter_app_lock.dart';

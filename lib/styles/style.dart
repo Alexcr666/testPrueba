@@ -1,4 +1,4 @@
-import 'package:trii/styles/colors.dart';
+import 'package:pruebaTest/styles/colors.dart';
 
 import 'package:flutter/material.dart';
 class AppStyle {

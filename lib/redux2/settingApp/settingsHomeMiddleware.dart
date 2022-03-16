@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:trii/app/app_settings.dart';
+import 'package:pruebaTest/app/app_settings.dart';
 
-import 'package:trii/data/models/UserModel2.dart';
-import 'package:trii/data/networking/api.dart';
-import 'package:trii/redux2/app/app_state.dart';
-import 'package:trii/redux2/settingApp/settingsHomeState.dart';
-import 'package:trii/redux2/settingApp/store.dart';
-import 'package:trii/utils/alert.dart';
+import 'package:pruebaTest/data/models/UserModel2.dart';
+import 'package:pruebaTest/data/networking/api.dart';
+import 'package:pruebaTest/redux2/app/app_state.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeState.dart';
+import 'package:pruebaTest/redux2/settingApp/store.dart';
+import 'package:pruebaTest/utils/alert.dart';
 import 'package:flutter/material.dart';
 import 'package:redux/redux.dart';
 

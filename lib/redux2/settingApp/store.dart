@@ -1,7 +1,7 @@
 
-import 'package:trii/redux2/settingApp/settingsHomeActions.dart';
-import 'package:trii/redux2/settingApp/settingsHomeReducer.dart';
-import 'package:trii/redux2/settingApp/settingsHomeState.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeActions.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeReducer.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeState.dart';
 import 'package:meta/meta.dart';
 
 import 'package:redux/redux.dart';

@@ -1,5 +1,5 @@
 
-import 'package:trii/data/models/UserModel2.dart';
+import 'package:pruebaTest/data/models/UserModel2.dart';
 import 'package:meta/meta.dart';
 
 

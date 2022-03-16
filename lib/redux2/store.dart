@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:trii/data/networking/api.dart';
-import 'package:trii/redux2/settingApp/settingsHomeMiddleware.dart';
-import 'package:trii/redux2/settingApp/settingsHomeState.dart';
+import 'package:pruebaTest/data/networking/api.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeMiddleware.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeState.dart';
 
 import 'package:flutter/material.dart';
 

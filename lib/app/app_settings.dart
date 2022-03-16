@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppSettings {
-  static const String appDisplayName = 'Trii';
-  static const String appSuffix = 'Trii';
+  static const String appDisplayName = 'pruebaTest';
+  static const String appSuffix = 'pruebaTest';
   static const bool debug = true;
   static const String version = '1.0.0';
   static const String build = '1';

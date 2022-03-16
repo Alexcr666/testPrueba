@@ -1,5 +1,5 @@
 
-import 'package:trii/redux2/settingApp/settingsHomeState.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeState.dart';
 
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,6 @@
 
-import 'package:trii/redux2/common_actions.dart';
-import 'package:trii/redux2/settingApp/settingsHomeState.dart';
+import 'package:pruebaTest/redux2/common_actions.dart';
+import 'package:pruebaTest/redux2/settingApp/settingsHomeState.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
