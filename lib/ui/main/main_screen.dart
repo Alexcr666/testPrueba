@@ -1,7 +1,8 @@
 import 'dart:async';
 
 
-import 'package:pruebaTest/data/models/UserModel2.dart';
+import 'package:pruebaTest/data/models/CountryList.dart';
+
 import 'package:pruebaTest/data/networking/api.dart';
 import 'package:pruebaTest/generated/l10n.dart';
 
@@ -132,13 +133,13 @@ class _usersListState extends State<usersListPage> {
 
                             ),
                           ),
-                          ReduxHome.store.state.postsState.dataUserList == null ?Text("No resullt", style: AppStyle().styleText(16, Colors.black, false)): ListView.builder(
+                          ReduxHome.store.state.postsState.countryListModel == null ?Text("No resullt", style: AppStyle().styleText(16, Colors.black, false)): ListView.builder(
                               shrinkWrap: true,
                               physics: NeverScrollableScrollPhysics(),
-                              itemCount:  ReduxHome.store.state.postsState.dataUserList.results.length,
+                              itemCount:  ReduxHome.store.state.postsState.countryListModel.length,
                               itemBuilder: (BuildContext ctxt, int index) {
                               
-                               Result dataUser = ReduxHome.store.state.postsState.dataUserList.results[index];
+                               CountryListModel dataUser = ReduxHome.store.state.postsState.countryListModel[index];
                                 
 
                                 if (search
@@ -148,7 +149,7 @@ class _usersListState extends State<usersListPage> {
                                   return AppCard().widgetCardHome(
                                       context, dataUser);
                                 } else {
-                                  if (dataUser.name
+                                  if (dataUser.countryName
                                       .toLowerCase()
                                       .contains(search)) {
                                     return AppCard().widgetCardHome(
@@ -232,7 +233,7 @@ class _usersListState extends State<usersListPage> {
       await createStore(api: API());
 
 
-      store.dispatch(getListUserAction(
+      store.dispatch(getTokenUserAction(
         context,
       ));
     }

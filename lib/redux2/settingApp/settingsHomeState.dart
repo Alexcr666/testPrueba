@@ -1,5 +1,7 @@
 
-import 'package:pruebaTest/data/models/UserModel2.dart';
+import 'package:pruebaTest/data/models/CountryList.dart';
+import 'package:pruebaTest/data/models/TokenModel.dart';
+
 import 'package:meta/meta.dart';
 
 
@@ -8,7 +10,10 @@ class PostsStateHome {
   final bool isError;
   final bool isLoading;
 
-  final ModelActivityUser dataUserList;
+
+
+  final List<CountryListModel> countryListModel;
+  final TokenModel tokenModel;
 
   // final List<modelFavorites> posts;
 
@@ -18,7 +23,10 @@ class PostsStateHome {
 
     this.isLoading,
 
-    this.dataUserList,
+
+    this.countryListModel,
+    this.tokenModel,
+  
 
     //this.posts,
   });
@@ -28,7 +36,9 @@ class PostsStateHome {
         isError: false,
 
 
-    dataUserList: null,
+
+    countryListModel: null,
+    tokenModel: null,
 
       );
 
@@ -37,7 +47,9 @@ class PostsStateHome {
 
     @required bool isLoading,
 
-    @required ModelActivityUser dataUserList,
+
+    @required countryListModel,
+    @required  tokenModel,
 
   }) {
     return PostsStateHome(
@@ -45,8 +57,9 @@ class PostsStateHome {
       isLoading: isLoading ?? this.isLoading,
 
 
-      dataUserList: dataUserList ?? this.dataUserList,
 
+      countryListModel: countryListModel ?? this.countryListModel,
+tokenModel: tokenModel ?? this.tokenModel,
     );
   }
 }

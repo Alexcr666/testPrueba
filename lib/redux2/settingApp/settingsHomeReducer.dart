@@ -8,9 +8,11 @@ postsReducerHome(PostsStateHome prevState, SetPostsStateActionHome action) {
     isError: payload.isError,
     isLoading: payload.isLoading,
    
-    dataUserList: payload.dataUserList,
+
+    countryListModel: payload.countryListModel,
+    tokenModel: payload.tokenModel,
 
 
-    // posts: payload.posts,
+  
   );
 }

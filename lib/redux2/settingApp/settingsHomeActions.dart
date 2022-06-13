@@ -8,10 +8,17 @@ import 'package:redux/redux.dart';
 
 
 
-class getListUserAction extends ErrorAction {
-  getListUserAction(BuildContext context) : super(context);
+class getTokenUserAction extends ErrorAction {
+  getTokenUserAction(BuildContext context) : super(context);
 
 }
+
+class getCountryListAction extends ErrorAction {
+  getCountryListAction(BuildContext context) : super(context);
+
+}
+
+
 
 @immutable
 class SetPostsStateActionHome {

@@ -103,6 +103,8 @@ final _ediPassword = TextEditingController();
                                             bottom: BorderSide(
                                                 color: Colors.grey[100]))),
                                     child: TextFormField(
+                                      style: TextStyle(
+                                              color: Colors.white),
                                       validator: (value) {
                                         if (value.isEmpty) {
                                           return AppLocalizations.of(context).requiredfield;
@@ -122,6 +124,8 @@ final _ediPassword = TextEditingController();
    width: 300,
                                     padding: EdgeInsets.all(8.0),
                                     child: TextFormField(
+                                             style: TextStyle(
+                                              color: Colors.white),
                                       validator: (value) {
                                         if (value.isEmpty) {
                                           return AppLocalizations.of(context).requiredfield;
